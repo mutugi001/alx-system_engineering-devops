@@ -17,3 +17,4 @@ And hidden files (starting with .)
 11-lists - script that lists all files in different directories
 12-file_type -  prints the type of the file named
 13-symbolic_link - Create a symbolic link
+14-copy_html - copies all the HTML files from the current working directory to the parent of the working directory
