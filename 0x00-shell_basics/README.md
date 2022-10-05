@@ -15,3 +15,4 @@ And hidden files (starting with .)
 9-firstdirdeletion - delete the directory my_first_directory
 10-back -  changes the working directory to the previous one.
 11-lists - script that lists all files in different directories
+12-file_type -  prints the type of the file named
