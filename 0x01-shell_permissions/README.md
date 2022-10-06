@@ -10,3 +10,4 @@
 9-John_Doe - sets the mode of the file
 10-mirror_permissions - mirroring permissions
 11-directories_permissions - sets permissions for subdirectories
+12-directory_permissions - creates a directory called my_dir with permissions 751
