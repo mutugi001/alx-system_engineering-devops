@@ -4,3 +4,4 @@
 3-new_owner - changes the owner of the file hello to the user betty
 4-empty - creates an empty file
 5-execute - gives execute permission to the user
+6-multiple_permissions - gives multiple permissions
