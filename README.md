@@ -6,3 +6,4 @@
 5-execute - gives execute permission to the user
 6-multiple_permissions - gives multiple permissions
 7-everybody - gives everyone permissions
+8-James_Bond - sets the permission to the file
