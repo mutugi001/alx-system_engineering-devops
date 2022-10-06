@@ -5,3 +5,4 @@
 4-empty - creates an empty file
 5-execute - gives execute permission to the user
 6-multiple_permissions - gives multiple permissions
+7-everybody - gives everyone permissions
