@@ -8,3 +8,4 @@
 7-everybody - gives everyone permissions
 8-James_Bond - sets the permission to the file
 9-John_Doe - sets the mode of the file
+10-mirror_permissions - mirroring permissions
