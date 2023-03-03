@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#configures an Ubuntu server with the below requirements
+#!/bin/bash
+
+# Configure /etc/hosts to map localhost to 127.0.0.2
+echo "127.0.0.2 localhost" | sudo tee -a /etc/hosts
+
+# Configure /etc/resolv.conf to use Google's DNS server for facebook.com
+echo "nameserver 8.8.8.8" | sudo tee -a /etc/resolv.conf
+echo "nameserver 8.8.4.4" | sudo tee -a /etc/resolv.conf
+echo "search facebook.com" | sudo tee -a /etc/resolv.conf
+
