@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#displays listening ports
+netstat -lnptu | awk '{print $4,$7}' | sed 's/.*://' | while read -r port pid;do
+	name=$(ps -p "$pid"  -o comm=)
+	echo "$port ($name, PID $pid)"
+done
